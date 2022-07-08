@@ -24,6 +24,10 @@ header p{
     text-align: center;
 }
 
+header .links{
+    display: none;
+}
+
 header .links ul{
     margin: 0 0 20px;
 }
@@ -38,5 +42,20 @@ header .burger i{
     padding: 10px;
     border-radius: 7px;
     font-size: var(--titulares)
+}
+
+@media (min-width:461px){
+    header .links{
+        display: block;
+    }
+    header .burger{
+        display: none;
+    }
+
+    
+}
+
+@media (min-width:769px){
+
 }
 
